@@ -17,7 +17,6 @@
     font-size: 25px;
 }
 
-
 @media(width >= 800px){
     .navbar{
         padding-inline: 100px;

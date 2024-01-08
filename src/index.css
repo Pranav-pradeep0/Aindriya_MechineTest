@@ -13,7 +13,7 @@ html{
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
-  padding-inline: 50px;
+  padding-inline: 30px;
 }
 
 .home_divider{
