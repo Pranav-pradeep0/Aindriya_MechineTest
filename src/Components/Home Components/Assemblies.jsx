@@ -228,9 +228,12 @@ const Assemblies = () => {
                             <button type="button" class="btn mx-auto btn-outline-danger modal-buttons" data-bs-dismiss="modal">Cancel</button>
 
                             {
-                                count && length &&
+                                count && length ?
 
-                                <button type="button" class="btn mx-auto btn-primary modal-buttons" onClick={handleAddDataToContext} data-bs-dismiss="modal">Add</button>
+                                    <button type="button" class="btn mx-auto btn-primary modal-buttons">Add</button>
+                                    :
+                                    <button type="button" class="btn mx-auto btn-secondary modal-buttons" onClick={handleAddDataToContext} data-bs-dismiss="modal">Add</button>
+
                             }
 
                         </div>
