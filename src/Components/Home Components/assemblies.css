@@ -1,0 +1,31 @@
+.modal_counts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.assembly-desc{
+    background-color: #F2F6F9 !important;
+}
+
+.modal-buttons{
+    width: 150px;
+}
+
+.light-titles{
+    font-weight: 350;
+}
+
+@media(width <= 500px){
+    .modal_assembly_name{
+        gap: 15px !important;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
+    .table-responsive{
+        width: 250px;
+    }
+}

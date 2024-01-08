@@ -1,0 +1,34 @@
+.list-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.project-serch {
+  width: 300px;
+  border: none;
+  padding-block: 5px;
+}
+
+.list_table_cont {
+  margin-block: 38px;
+  background-color: white;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 10px;
+}
+
+@media (width <= 750px) {
+  .list-tools {
+    justify-content: center;
+  }
+}
+
+@media (width <= 550px) {
+  .list_table_cont {
+    margin-inline: auto;
+    width: 90%;
+  }
+}
